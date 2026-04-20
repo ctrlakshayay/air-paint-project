@@ -1,21 +1,22 @@
-## You can paint in air !
-Using opencv and based on object detection by Adrian- https://www.pyimagesearch.com/2014/08/04/opencv-python-color-detection/.
+# 🎨 Air Paint Project
 
-You would require to install cv2, argparse
+A computer vision project using OpenCV that allows users to draw in air using colored object tracking.
 
-Open up the file to the directory and run with a webcam(remember to have atleast one camera device activated) you can also use a video just give it as an argument while running, hint in the code.
+## 🚀 Features
 
-The device would detect your movement with any red colored object of the size of your palm.
-If you want a different colored object then you need to change appropriate hsv values.
+* Real-time object tracking
+* Air drawing using webcam
+* Motion detection
 
-for air paint run
+## 🛠️ Tech Stack
 
-`python paint.py`
+* Python
+* OpenCV
+* NumPy
 
-if you want mouse controls run
+## ▶️ How to Run
 
-`python n_paint.py`
+```bash
+python3 paint.py
+```
 
-Here's a gif demo, please don't judge the picture 😂
-
-![demo.gif](demo.gif)
